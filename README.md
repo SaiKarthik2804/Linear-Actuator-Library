@@ -1,6 +1,7 @@
-Linear Actuator Arduino Library
+Arduino library for controlling linear actuators with ESP32.
 
-This Library is built for a High Current DC Motor Drive and tested for the hardware below.
+
+This Library is written for using a High Current DC Motor Drive with ESP 32. links to the hardware are given below.
 
 
 Hardware:
