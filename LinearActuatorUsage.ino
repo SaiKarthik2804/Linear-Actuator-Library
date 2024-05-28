@@ -32,28 +32,3 @@ void Serial_input()
     speedinput = Serial.parseInt();Serial.read();
    }
  }
-
-
-
-
-
-
-/*
-float linear_actuator_speed;
-float prev_position, current_position;
-long prev_time, current_time;
-
-  prev_time = millis();
-  current_time = prev_time;
-
-  current_position = L1.get_pos();
-  current_time     = millis();
-  if(current_time-prev_time>1000)
-   {
-    linear_actuator_speed = abs(prev_position- current_position);
-    prev_time = current_time;
-    prev_position = current_position;
-   }
-    Serial.print("==");
-  Serial.println(linear_actuator_speed);
-*/
